@@ -1,18 +1,20 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+<h3>Soul Intention Disco</h3>
 
 
-Hi there! Welcome to Cloud9 IDE!
+Rationale and reason for site
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
 
-Happy coding!
-The Cloud9 IDE team
+Site will act as a presence for my mobile soul DJ hobby
+will consist of a homepage, gallery page, audio clip page, video clip page
+and an enquiry page 
+
+the written content will contain 
+an about us section
+what music we play
+what equipment we use
+where we play
+how to make an enquiry
+
+it will be responsive, with a vesion for mobile and taqblet screens
+
+Balsamiq was used to wireframe to the desktop and smaller screen versions 
