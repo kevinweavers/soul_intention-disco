@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Michroma:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 
 
-/* -----------Heading*/
+/* -----------------------------Heading*/
 
 header{
     margin:0;
 }
 
 
+
+/*-------------------------------Colours*/
+.header-bg-color{
+    background-color: #ff3333;
+}
+
+.main-fill-bg-color{
+    background-color:#ffcccc;
+}
 
 
 
