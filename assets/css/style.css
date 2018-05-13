@@ -7,17 +7,71 @@ header{
     margin:0;
 }
 
+.main-title {
+    font-family: "Michroma" , sans-serif;
+    font-weight: 400;
+    font-size:46px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: #ffffff;
+}
+
+.sub-title-1 {
+    font-family: "Michroma" , sans-serif;
+    font-weight: 300;
+    font-size:22px;
+    margin-top: 10px;
+    margin-left: 100px;
+    color: #ffffff;
+}
+
+
+.sub-title-2{
+    font-family: "Michroma" , sans-serif;
+    font-weight: 200;
+    font-size:18px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+/*------------------------------Homepage*/
+
+.sub-heading{
+    font-family: "Monserrat" , sans-serif;
+    font-weight: 200;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    
+}
+
+.general-text {
+    font-family: "Michroma" , sans-serif;
+    color:#ffffff;
+}
+
+
 
 
 /*-------------------------------Colours*/
 .header-bg-color{
-    background-color: #ff3333;
+    background-color: #ff4d4d;
 }
 
 .main-fill-bg-color{
-    background-color:#ffcccc;
+    background-color:#ff6660;
 }
 
+.footer-bg-color{
+    background-color:#ff9999;
+}
+
+/*----------------------------Footer*/
+
+
+.uppercase{
+    text-transform: uppercase;
 
 
 /* Media Quiries - no max screen is set by design*/
