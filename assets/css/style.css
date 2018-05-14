@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Michroma:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 
+/*--------------------------------Body*/
+.background-color{
+    background-color:#ff6660;
+}
 
 /* -----------------------------Heading*/
 
@@ -72,6 +76,31 @@ header{
 
 .uppercase{
     text-transform: uppercase;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #000000;
+    transition:all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background: #ff0000;
+}
+
+#footer-details{
+    margin: 20px;
+}
 
 
 /* Media Quiries - no max screen is set by design*/
