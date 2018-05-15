@@ -71,12 +71,39 @@ header{
     background-color:#ff9999;
 }
 
+
+
+/*-------------------------- Video page*/
+
+.contact-us-video {
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.contact-us-video :hover {
+    color: #ff0000;
+    transition:all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+
+
+
+
+
 /*----------------------------Footer*/
 
 
+/*  --- commented out deliberately 
 .uppercase{
     text-transform: uppercase;
 }
+*/
 
 .social-links li a i {
     width: 32px;
@@ -97,6 +124,27 @@ header{
 .social-links li a i:hover{
     background: #ff0000;
 }
+
+
+footer .contact-us i {
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .contact-us i:hover {
+    color: #ff0000;
+    transition:all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+
+
+
 
 #footer-details{
     margin: 20px;
