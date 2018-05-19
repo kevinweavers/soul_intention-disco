@@ -2,7 +2,7 @@
 
 /*--------------------------------Body*/
 .background-color{
-    background-color:#ff6660;
+    background-color:#941B0C;
 }
 
 /* -----------------------------Heading*/
@@ -16,7 +16,7 @@ header{
     font-weight: 400;
     font-size:46px;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 0px;
     color: #ffffff;
 }
 
@@ -25,7 +25,7 @@ header{
     font-weight: 300;
     font-size:22px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 0px;
     color: #ffffff;
 }
 
@@ -35,7 +35,7 @@ header{
     font-weight: 200;
     font-size:18px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-bottom: 20px;
     color: #ffffff;
 }
@@ -60,26 +60,34 @@ header{
 
 /*-------------------------------Colours*/
 .header-bg-color{
-    background-color: #ff4d4d;
+    background-color: #d92f2f;
 }
 
 .main-fill-bg-color{
-    background-color:#ff6660;
+    background-color:#941B0C;
 }
 
 .footer-bg-color{
-    background-color:#ff9999;
+    background-color:#F6AA1C;
 }
 
 
 
-/*-------------------------- Video page*/
+/*--------need to style this correctly!!!------------------Links*/
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+
+/*------below is still showing default blue at hover!!------------- Video page*/
 
 .contact-us-video {
     color: #000000;
     text-align: center;
     font-size: 25px;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .contact-us-video :hover {
@@ -89,10 +97,6 @@ header{
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
-
-
-
 
 
 
@@ -122,19 +126,19 @@ header{
 }
 
 .social-links li a i:hover{
-    background: #ff0000;
+    background: #d9242f;
 }
 
 
 footer .contact-us i {
-    color: #000000;
+    color: #220901;
     text-align: center;
     font-size: 18px;
     padding-left: 5px;
 }
 
 footer .contact-us i:hover {
-    color: #ff0000;
+    color: #d92f2f;
     transition:all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
