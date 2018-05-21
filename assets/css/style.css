@@ -39,7 +39,7 @@ header{
     margin-bottom: 20px;
     color: #ffffff;
 }
-/*------------------------------Homepage*/
+/*-----------------Texts - sub heading phased out but held for future dev */
 
 .sub-heading{
     font-family: "Monserrat" , sans-serif;
@@ -57,8 +57,32 @@ header{
 
 
 
+/* Navbar updates */
+.navbar-default {
+    margin-bottom: 0px;
+}
+
+/*#kevin-custom-nav {*/
+/*    background-color: black;*/
+/*}*/
+
+/* ----- centering the main logo ------*/
+
+.centered-image {
+    margin: 0 auto;
+}
+
+.centered-player-controls {
+    margin-left: 100px;
+}
+
+.main-section {
+    margin-bottom: 500px;
+}
+
 
 /*-------------------------------Colours*/
+
 .header-bg-color{
     background-color: #d92f2f;
 }
@@ -73,9 +97,9 @@ header{
 
 
 
-/*--------need to style this correctly!!!------------------Links*/
+/*-----------------------------------------Links*/
 a:link {
-    color: green; 
+    color: #F6AA1C; 
     background-color: transparent; 
     text-decoration: none;
 }
@@ -90,8 +114,8 @@ a:link {
     padding-left: 10px;
 }
 
-.contact-us-video :hover {
-    color: #ff0000;
+.contact-us-video:hover {
+    color: #ff0000 !important;
     transition:all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -118,7 +142,7 @@ a:link {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #000000;
+    background: #220901;
     transition:all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -126,7 +150,7 @@ a:link {
 }
 
 .social-links li a i:hover{
-    background: #d9242f;
+    background: #621728;
 }
 
 
@@ -138,7 +162,7 @@ footer .contact-us i {
 }
 
 footer .contact-us i:hover {
-    color: #d92f2f;
+    color: #621728;
     transition:all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -146,16 +170,12 @@ footer .contact-us i:hover {
 }
 
 
-
-
-
-
 #footer-details{
     margin: 20px;
 }
 
 
-/* Media Quiries - no max screen is set by design*/
+/* Media Quiries - need to review with mohamed -no max screen is set by design*/
 
 @media (max-width:767px){
     .mobile {
