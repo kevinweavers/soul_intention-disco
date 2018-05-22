@@ -13,7 +13,7 @@ header{
 
 .main-title {
     font-family: "Michroma" , sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size:46px;
     margin-top: 20px;
     margin-left: 0px;
@@ -22,7 +22,7 @@ header{
 
 .sub-title-1 {
     font-family: "Michroma" , sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size:22px;
     margin-top: 10px;
     margin-left: 0px;
@@ -32,7 +32,7 @@ header{
 
 .sub-title-2{
     font-family: "Michroma" , sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size:18px;
     margin-top: 10px;
     margin-left: 0px;
@@ -55,29 +55,42 @@ header{
     color:#ffffff;
 }
 
-
+.singer-text {
+    font-family: "Michroma" , sans-serif;
+    color:#f6aa1c;
+    font-weight:400;
+    font-size: 20px;
+}
 
 /* Navbar updates */
 .navbar-default {
     margin-bottom: 0px;
 }
 
-/*#kevin-custom-nav {*/
-/*    background-color: black;*/
-/*}*/
+#kevin-custom-nav {
+    background-color: black;
+}
 
-/* ----- centering the main logo ------*/
+
+/* ----- centering and paddings ------*/
 
 .centered-image {
     margin: 0 auto;
 }
 
-.centered-player-controls {
-    margin-left: 100px;
+.logo-spacer-top {
+    margin-top:50px;
 }
 
+.element-divider {
+    margin-top:30px;
+}
+
+/*----- section paddings  -----*/
+
 .main-section {
-    margin-bottom: 500px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 
@@ -98,6 +111,7 @@ header{
 
 
 /*-----------------------------------------Links*/
+
 a:link {
     color: #F6AA1C; 
     background-color: transparent; 
