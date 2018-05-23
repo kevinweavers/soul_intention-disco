@@ -29,6 +29,15 @@ header{
     color: #ffffff;
 }
 
+.header-change {
+    background-color:#d92f2f;
+    }
+
+.header-change:hover {
+    background-color:#fbaa1c;
+    transition-duration:2s;
+    transition-timing-function:ease-in,ease-out;
+}
 
 .sub-title-2{
     font-family: "Michroma" , sans-serif;
@@ -63,6 +72,7 @@ header{
 }
 
 /* Navbar updates */
+
 .navbar-default {
     margin-bottom: 0px;
 }
