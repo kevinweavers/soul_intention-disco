@@ -36,7 +36,7 @@ header{
 .header-change:hover {
     background-color:#fbaa1c;
     transition-duration:2s;
-    transition-timing-function:ease-in,ease-out;
+    transition-timing-function:ease-in-out;
 }
 
 .sub-title-2{
@@ -66,21 +66,24 @@ header{
 
 .singer-text {
     font-family: "Michroma" , sans-serif;
-    color:#f6aa1c;
+    color:#f6aa1c !important;
     font-weight:400;
     font-size: 20px;
 }
 
 /* Navbar updates */
 
-.navbar-default {
+.navbar-inverse {
     margin-bottom: 0px;
+    font-family:"Michroma" , sans-serif;
+    font-size:20px;
+    font-weight:300;
 }
 
+/* -- now using navbar-inverse 
 #kevin-custom-nav {
-    background-color: black;
-}
-
+    background-color: black !important;
+  -->  
 
 /* ----- centering and paddings ------*/
 
@@ -128,8 +131,14 @@ a:link {
     text-decoration: none;
 }
 
+a:visited {
+    /*color: white;*/
+    text-decoration: none;
+    color: #F6AA1C;
+}
 
-/*------below is still showing default blue at hover!!------------- Video page*/
+
+/*------------------- Video page*/
 
 .contact-us-video {
     color: #000000;

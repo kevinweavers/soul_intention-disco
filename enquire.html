@@ -16,43 +16,65 @@
     
 </head>    
   <body class="background-color"> 
-      <!--lifted from bootstrap and trying to adapt for my use -->   
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Soul Intention Disco</a>
-    </div>
+      <!--lifted from bootstrap and trying to adapt for my use -->  
+      
+<nav class="navbar navbar-inverse" id="kevin-custom-nav">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Soul Intention Disco</a>
+        </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="video.html">Video</a></li>
-        <li><a href="enquire.html">Enquire and Book</a></li>
-        
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="music.html">Music</a></li>
-            <li><a href="video.html">Video</a></li>
-            <li><a href="enquire.html">Enquire and Book</a></li>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a href="music.html">Music</a>
+            </li>
+            <li>
+              <a href="video.html">Video</a>
+            </li>
+            <li>
+              <a href="enquire.html">Enquire and Book</a>
+            </li>
+              <!-- Dropdown feature repeating menu commented out this seemed to fix white background issue for page body!!
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="music.html">Music</a>
+                </li>
+                <li>
+                  <a href="video.html">Video</a>
+                </li>
+                <li>
+                  <a href="enquire.html">Enquire and Book</a>
+                </li>
+              </ul>
+            </li>-->
           </ul>
-        </li>
-      </ul>
-     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav> 
+        </div>
+       </div>
+      </nav>     
+
 
 
  <div class="container main-fill-bg-color main-section">
@@ -79,7 +101,7 @@
         <br><br>
                 
         Please enter your email address, name, date and time of your event
-        and message with you best contact telephone number below and
+        and message with your best contact telephone number below and
         we will get back to you as soon as possible.<br><br>
 
         We love hearing from you!!
@@ -115,10 +137,10 @@
             <div class="col-12 col-sm-6">
              <input type="time" class="form-control" id="time" placeholder="Time" required="">
             </div>
-            <div class="col-12">
+            <div class="col-12 col-sm-6">
              <textarea class="form-control" id="message" rows="3" placeholder="Enter any further details" required=""></textarea>
             </div>
-            <div class="col-12 col-sm-6 offset-sm-3">
+            <div class="col-12 col-sm-6">
             <br><br>
             <button class="btn btn-danger btn-lg book-button" type="submit" required="">Submit my enquiry</button>
             </div>
