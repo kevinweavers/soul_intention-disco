@@ -121,8 +121,6 @@ header{
     background-color:#F6AA1C;
 }
 
-
-
 /*---------------------------------Links*/
 
 a:link {
@@ -155,12 +153,9 @@ a:visited {
     -o-transition: all 0.35s ease-in-out;
 }
 
-
-
 /*----------------------------------Footer*/
 
-
-/*  --- commented out deliberately 
+/*  --- commented out deliberately decided not to use
 .uppercase{
     text-transform: uppercase;
 }
@@ -208,7 +203,7 @@ footer .contact-us i:hover {
 }
 
 
-/* Media Quiries - need to review with mohamed -no max screen is set by design*/
+/* Media Quiries - not used as bootstrap is determining sizes
 
 @media (max-width:767px){
     .mobile {}
@@ -221,4 +216,4 @@ footer .contact-us i:hover {
 @media (min-width: 992px) {
     .desktop {
     }
-}
+}*/
