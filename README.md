@@ -51,6 +51,8 @@ the style and layout, such as the Navbar and Image gallery, the booking form ele
 was lifted from a fellow student project and tweaked to fit my needs by adjusting
 the column widths.
 
+## Notes
+Booking form is a dummy only at present, by design no java script is running to facilitate this 
 
 June 2018
 ##
